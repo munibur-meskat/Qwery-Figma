@@ -1,0 +1,36 @@
+#about {
+    padding-top: 292px;
+    padding-bottom: 297px;
+    background-color: #000;
+}
+
+.about_text {
+    padding-top: 76px;
+    padding-left: 130px;
+}
+
+.about_text h4 {
+    @include font('Open Sans' sans-serif, 18px, 700, #FBD784);
+    display: inline-block;
+    letter-spacing: 6px;
+}
+
+.about_text h3 {
+    @include font('Open Sans' sans-serif, 64px, 700, #fff);
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    line-height: 75px;
+}
+
+.about_text p {
+    @include font('Open Sans' sans-serif, 14px, 600, #fff);
+    padding-bottom: 50px;
+    line-height: 32px;
+}
+
+.about_text h5 {
+    @include font('Open Sans' sans-serif, 18px, 700, #FBD784);
+    display: inline-block;
+}

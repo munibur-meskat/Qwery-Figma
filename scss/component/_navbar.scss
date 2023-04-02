@@ -1,0 +1,49 @@
+.bg{
+    background: #11cc9db0;
+    padding: 10px 0;
+    animation: menu 1s;
+}
+
+@keyframes menu{
+    from {top: -200px;}
+    to {top: 0px }
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: .4s;
+    .navbar-brand{
+        @include font('Open Sans' sans-serif, 24px, 700, #fff);
+        &:hover{
+            color: rgb(244, 255, 85);
+        }
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-item{
+            @include gap(0, 15.5px, 15.5px, 0);
+            .nav-link{
+                @include font('Open Sans' sans-serif, 18px, 700, #fff);
+                &:hover{
+                    color: #ffba4a;
+                    transition: all linear .4s;
+                }
+            }
+        }
+    }
+    .d-flex{
+        a{
+            @include font('Open Sans' sans-serif, 17px, 400, #fff);
+            i{
+                color: azure;
+                padding-right: 21px;
+                font-size: 20px;
+            }
+        }
+    }
+}

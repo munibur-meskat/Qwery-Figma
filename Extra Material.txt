@@ -1,0 +1,6 @@
+      Main.scss a ki ki link korbo !
+
+             1.mixin
+             2.variable
+             3.common css
+             4.page

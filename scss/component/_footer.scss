@@ -1,0 +1,147 @@
+#footer{
+    background-color: #000;
+    // padding-bottom: 10px;
+}
+
+.line{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #666666;
+    .footer_txt h3{
+        @include font('Open Sans' sans-serif, 48px, 700, #fff);
+    }
+    .footer_btn{
+        color: #fff;
+        margin-left: 125px;
+    }
+    .footer_btn ul li{
+        display: inline-block;
+        padding-right: 44px;
+    }
+    .footer_btn ul li h3{
+        display: inline-block;
+        @include font('Open Sans' sans-serif, 22px, 400, #fff);
+        letter-spacing: -0.3px;
+    }
+    .footer_btn ul li h4{
+        display: inline-block;
+        text-align: center;
+        @include gap(18px, 55px, 55px, 18px);
+        background: #FFA343;
+        border-bottom: 1px solid #FFA343;
+        @include font('Open Sans' sans-serif, 17px, 700, #000);
+        border-radius: 7px;
+    }
+}
+
+
+/*Footer_2nd Part*/
+
+#footer_middle{
+    padding-top: 27px;
+    padding-bottom: 120px;
+    background-color: #000;
+}
+
+.footer_txt{
+    h2{
+        @include font('Open Sans' sans-serif, 36px, 700, #fff);
+        letter-spacing: -0.3;
+        text-transform: capitalize;
+        @include gap(0, 0, 0, 76px);
+        line-height: 50px;
+    }
+}
+
+.Email{
+    position: relative;
+    input{
+        background-color: transparent;
+        @include font('DM Sans' sans-serif, 15px, 400, #fff);
+        @include gap(22px, 15px, 238px, 21px);
+        border: 1px solid #FFA343;
+        letter-spacing: -0.2px;
+    }
+    button{
+        position: absolute;
+        background: #FFA343;
+        padding: 22px 33px;
+        border: none;
+        top: 0;
+        right: 0;
+        i{
+            color: #000;
+            font-size: 20px;
+        }
+    }
+}
+
+.terms_part{
+    display: flex;
+    .left{
+        h3{
+            @include font('Open Sans' sans-serif, 15px, 400, #fff);
+            display: inline-block;
+            letter-spacing: -0.2px;
+            padding-top: 104px;
+        }
+    }
+    .right{
+        h3{
+            @include font('Open Sans' sans-serif, 15px, 400, #fff);
+            display: inline-block;
+            letter-spacing: -0.2px;
+            padding-top: 104px;
+            margin-left: 90px;
+        }
+    }
+}
+
+.common_head{
+    padding-top: 26px;
+    margin-bottom: 22px;
+    h3{
+        display: inline-block;
+        @include font('Open Sans' sans-serif, 20px, 700, #FFD1A0);
+    }
+}
+
+.service_menu{
+    ul li{
+        padding-bottom: 20px;
+        @include font('Open Sans' sans-serif, 15px, 400, #fff);
+        letter-spacing: -0.2px;
+        &:hover{
+            color: #f8ea1f;
+        }
+    }
+   
+}
+
+.service_menu ol,ul{
+    padding-left: 0rem;
+}
+
+.social{
+    margin-left: 81px;
+    a{
+        display: inline-block;
+        padding-top: 172px;
+        padding-left: 10px;
+        i{
+            font-size: 20px;
+            color: #fff;
+            &:hover{
+                color: rgb(58, 210, 248);
+                transition: .4s;
+            }
+        }
+       
+    }
+}
+
+.last_text{
+    p{
+        @include font('Open Sans' sans-serif, 18px, 600, #fff);
+        padding-top: 100px;
+    }
+}

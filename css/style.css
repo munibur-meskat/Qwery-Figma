@@ -1,0 +1,496 @@
+/*mixin*/
+/*variable*/
+/*page*/
+.bg {
+  background: #11cc9db0;
+  padding: 10px 0;
+  -webkit-animation: menu 1s;
+          animation: menu 1s;
+}
+
+@-webkit-keyframes menu {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes menu {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.navbar .navbar-brand {
+  font-family: "Open Sans" sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar .navbar-brand:hover {
+  color: #f4ff55;
+}
+
+.navbar-light .navbar-nav .nav-item {
+  padding-top: 0;
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+  padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #ffba4a;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.navbar-light .d-flex a {
+  font-family: "Open Sans" sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.navbar-light .d-flex a i {
+  color: azure;
+  padding-right: 21px;
+  font-size: 20px;
+}
+
+#banner {
+  background: url(../images/banner_02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_overly {
+  padding-top: 255px;
+  padding-bottom: 459px;
+  background: rgba(26, 24, 24, 0.609);
+}
+
+.banner_text p {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFC178;
+  letter-spacing: 6px;
+  padding-bottom: 38px;
+  text-transform: uppercase;
+}
+
+.banner_text h2 span {
+  font-family: "Open Sans" sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.banner_text h2 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 88px;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+}
+
+#blog {
+  background-color: #000;
+}
+
+.blog_img {
+  padding-top: 565px;
+  padding-bottom: 33px;
+  background: url(../images/blog_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.blog_text {
+  padding-top: 0px;
+  padding-left: 196px;
+  padding-right: 196px;
+  padding-bottom: 0px;
+  color: #fff;
+}
+
+.blog_text h4 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.blog_text h3 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #FFF;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 80px;
+}
+
+.blog_text p {
+  font-family: "Open Sans" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #FFF;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding-bottom: 26px;
+}
+
+.blog_text h5 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  text-transform: uppercase;
+}
+
+#about {
+  padding-top: 292px;
+  padding-bottom: 297px;
+  background-color: #000;
+}
+
+.about_text {
+  padding-top: 76px;
+  padding-left: 130px;
+}
+
+.about_text h4 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  display: inline-block;
+  letter-spacing: 6px;
+}
+
+.about_text h3 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  line-height: 75px;
+}
+
+.about_text p {
+  font-family: "Open Sans" sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 50px;
+  line-height: 32px;
+}
+
+.about_text h5 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  display: inline-block;
+}
+
+#service {
+  padding-top: 297px;
+  padding-bottom: 126px;
+  background-color: #000;
+}
+
+.service_text {
+  color: #fff;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+
+.service_text h4 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  letter-spacing: 6px;
+  padding-left: 10px;
+}
+
+.service_text h3 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 80px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.service_text p {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding-bottom: 48px;
+}
+
+.service_text h5 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  text-transform: uppercase;
+}
+
+#footer {
+  background-color: #000;
+}
+
+.line {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #666666;
+}
+
+.line .footer_txt h3 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.line .footer_btn {
+  color: #fff;
+  margin-left: 125px;
+}
+
+.line .footer_btn ul li {
+  display: inline-block;
+  padding-right: 44px;
+}
+
+.line .footer_btn ul li h3 {
+  display: inline-block;
+  font-family: "Open Sans" sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -0.3px;
+}
+
+.line .footer_btn ul li h4 {
+  display: inline-block;
+  text-align: center;
+  padding-top: 18px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 18px;
+  background: #FFA343;
+  border-bottom: 1px solid #FFA343;
+  font-family: "Open Sans" sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  border-radius: 7px;
+}
+
+/*Footer_2nd Part*/
+#footer_middle {
+  padding-top: 27px;
+  padding-bottom: 120px;
+  background-color: #000;
+}
+
+.footer_txt h2 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.3;
+  text-transform: capitalize;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 76px;
+  line-height: 50px;
+}
+
+.Email {
+  position: relative;
+}
+
+.Email input {
+  background-color: transparent;
+  font-family: "DM Sans" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 22px;
+  padding-left: 15px;
+  padding-right: 238px;
+  padding-bottom: 21px;
+  border: 1px solid #FFA343;
+  letter-spacing: -0.2px;
+}
+
+.Email button {
+  position: absolute;
+  background: #FFA343;
+  padding: 22px 33px;
+  border: none;
+  top: 0;
+  right: 0;
+}
+
+.Email button i {
+  color: #000;
+  font-size: 20px;
+}
+
+.terms_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.terms_part .left h3 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: -0.2px;
+  padding-top: 104px;
+}
+
+.terms_part .right h3 {
+  font-family: "Open Sans" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: -0.2px;
+  padding-top: 104px;
+  margin-left: 90px;
+}
+
+.common_head {
+  padding-top: 26px;
+  margin-bottom: 22px;
+}
+
+.common_head h3 {
+  display: inline-block;
+  font-family: "Open Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFD1A0;
+}
+
+.service_menu ul li {
+  padding-bottom: 20px;
+  font-family: "Open Sans" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -0.2px;
+}
+
+.service_menu ul li:hover {
+  color: #f8ea1f;
+}
+
+.service_menu ol, ul {
+  padding-left: 0rem;
+}
+
+.social {
+  margin-left: 81px;
+}
+
+.social a {
+  display: inline-block;
+  padding-top: 172px;
+  padding-left: 10px;
+}
+
+.social a i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.social a i:hover {
+  color: #3ad2f8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.last_text p {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 100px;
+}
+
+/*common*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/*# sourceMappingURL=style.css.map */

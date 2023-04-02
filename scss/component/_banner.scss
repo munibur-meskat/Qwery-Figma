@@ -1,0 +1,31 @@
+#banner {
+    // padding-left: 60px;
+    background: url(../images/banner_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_overly {
+    padding-top: 255px;
+    padding-bottom: 459px;
+    background: rgba(26, 24, 24, 0.609);
+}
+
+.banner_text p {
+    @include font('Open Sans' sans-serif, 18px, 700, #FFC178);
+    letter-spacing: 6px;
+    padding-bottom: 38px;
+    text-transform: uppercase;
+}
+
+.banner_text h2 span {
+    @include font('Open Sans' sans-serif, 96px, 700, #fff);
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.banner_text h2 {
+    @include font('Open Sans' sans-serif, 88px, 400, #fff);
+    display: inline-block;
+}
