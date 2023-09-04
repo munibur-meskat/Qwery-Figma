@@ -349,36 +349,23 @@
   line-height: 50px;
 }
 
-.Email {
-  position: relative;
-}
-
-.Email input {
+.email input {
   background-color: transparent;
+  border: 1px solid #FFA343;
   font-family: "DM Sans" sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
-  padding-top: 22px;
-  padding-left: 15px;
-  padding-right: 238px;
-  padding-bottom: 21px;
-  border: 1px solid #FFA343;
+  padding: 10px 30px;
   letter-spacing: -0.2px;
 }
 
-.Email button {
-  position: absolute;
+.email button {
   background: #FFA343;
-  padding: 22px 33px;
   border: none;
-  top: 0;
-  right: 0;
-}
-
-.Email button i {
   color: #000;
   font-size: 20px;
+  padding: 0px 20px;
 }
 
 .terms_part {
@@ -454,7 +441,7 @@
 }
 
 .social a i:hover {
-  color: #3ad2f8;
+  color: #fff700;
   -webkit-transition: .4s;
   transition: .4s;
 }
